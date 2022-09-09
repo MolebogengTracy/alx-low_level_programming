@@ -10,17 +10,15 @@
  */
 int main(void)
 {
-	int x;
+	int n;
 	Srand(time(0));
 	x= rand()-RAND_MAX/2;
 
-	if(x>0);
-	printf("%d Positive\n",x);
-	else if(x==0)
-		printf("%d Zero\n",x); 
+	if(n>0);
+	printf("%d Positive\n",n);
+	else if(n==0)
+		printf("%d Zero\n",n); 
 	else
-		printf("%d Negative\n",x);
+		printf("%d Negative\n",n);
 	return (0);
-
-
 }
