@@ -1,9 +1,8 @@
-#incliude <stdio.h>
+#include <stdio.h>
 
 /**
- * main-entry pint
- *
- * Return Always 0 (sucess)
+ *Descriptiom: main- Prints out a string to stdout
+ * Return Always 0 (success)
  */
 int main(void)
 {
