@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 /**
  * print_times_table - prints the times tabled with parameter
  * @n: parameter
@@ -15,7 +15,7 @@ void print_times_table(int n)
 			_putchar(',');
 			_putchar(' ');
 
-			result = digit * mult
+			result = digit * mult;
 
 			if (result <= 99)
 				_putchar(' ');
