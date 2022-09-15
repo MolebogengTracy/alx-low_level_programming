@@ -16,6 +16,6 @@ int main(void)
 			if ((n1 % 2) == 0)
 				sum += n1;
 	}
-	printf("%d\n", sum);
+	printf("%1\n", sum);
 	return (0);
 }
