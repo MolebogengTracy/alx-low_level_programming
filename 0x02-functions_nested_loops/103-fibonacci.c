@@ -3,7 +3,7 @@
  * main - prints sum of even fibonacci
  * suit elements
  * fibonacci suit numbers
- * Return: return 0
+ * Return: 0
  */
 int main(void)
 {
@@ -16,6 +16,6 @@ int main(void)
 			if ((n1 % 2) == 0)
 				sum += n1;
 	}
-	printf("%d\n", sum);
+	printf("%1d\n", sum);
 	return (0);
 }
